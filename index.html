@@ -1,63 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Natasha.ai</title>
 
+  <!-- FavIcon -->
+  <link rel="shortcut icon" href="static/assets/favicon-32x32.png">
+
   <!-- CSS -->
   <link rel="stylesheet" href="static/css/general.css">
-  <link rel="stylesheet" href="static/css/about.css">
+  <link rel="stylesheet" href="static/css/style.css">
   <link rel="stylesheet" href="static/css/nav&footer.css">
-  <link rel="stylesheet" href="static/css/index.css">
 
-  <!-- JS -->
-
-
-
-
-
-  <!-- OTher -->
-  <link rel="shortcut icon" href="static/assets/favicon-32x32.png" type="image/png">
+  <!-- Font awesome icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
 <body>
-  <nav>
-    <div style="display: flex;
-      justify-content: center;
-      align-items: center;
+
+  <main >
+    <nav id="nav1">
+      <div style="display: flex;
+        justify-content: center;
+        align-items: center;
       ">
-    <a href="../index.html">
-      <img src="../static/assets/favicon-32x32.png" class="nav-company-logo" alt="nav-log">
-      <h1 class="nav-company-name">Natasha</h1>
-    </a>
-      
+        <img src="static/assets/favicon-32x32.png" class="nav-company-logo" alt="nav-log">
+        <h1 class="nav-company-name">Natasha</h1>
+
+      </div>
+      <a href="static/about.html">
+        <button class="nav-button">About ></button>
+      </a>
+    </nav>
+    <div class="home-front-container">
+      <div class="about">
+        AI-Driven solution that revolutionous daily life management
+      </div>
+      <div class="description">
+        tracking activities, suggesting improvements, unique insights and providing productivity tool aiming personal development and career growth
+      </div>
+
+
+
+
+      <div class="other-details">
+
+        <!-- INput and speechRecognition system -->
+        <div class="input-container">
+          <div>
+            <label for="input-prompt">
+              <input class="prompt-input" placeholder="Search..." name="input-prompt" type="text" required>
+            </label>
+          </div>
+
+
+          <div>
+            <button class="mic-btn" type="button">
+              <i class="fa-solid fa-xl fa-microphone" style="color: white;"></i>
+            </button>
+          </div>
+
+          <div>
+            <button class="search-btn" type="submit">Go></button>
+          </div> 
+        </div>
+
+        <!-- This section will be chat between user and ai -->
+        <section>
+          <div class='waveContainer'>
+
+            <div class="boxContainer">
+              <div class="box box1"></div>
+              <div class="box box2"></div>
+              <div class="box box3"></div>
+              <div class="box box4"></div>
+              <div class="box box5"></div>
+            </div>
+
+          </div>
+
+          
+        </section>
+        <div class="final-chat-container">
+          <div class="chat-container1">
+            <p class="ai-question">
+              User: Here is my javascript code and you have to debug it.</p>
+            <p class="ai-answer">
+              Absolutely, here are the problem statements in a concise 100-word format:
+
+Emotionally Guided AI Mentor: Create an AI mentor that connects emotionally with users, offering personalized guidance for enhanced productivity and personal growth.
+
+Revolutionizing Daily Management: Develop an AI solution that redefines daily life management by tracking activities, suggesting improvements, and providing productivity tools.
+
+Comprehensive Personal-Professional AI: Build an AI mentor that combines personal and professional guidance, aiding users in both personal development and career growth.
+
+AI-Driven Emotional Intelligence: Design an AI with emotional awareness, adapting its tools and advice based on users' emotional states to boost productivity and well-being.
+
+Empowering Personal Development: Invent an emotionally connected AI that supports 
+            </p>
+          </div>
+        </div>
+        <!-- <div class="user-ai-chat-container">
+          <div class="user-one-chat">
+            <p class="question">User: What are the tools required for ai assistant</p>
+          <div>
+            <p>Nnothing to commit, working tree clean
+              PS C:\Users\Mohammed Faizan\Desktop\code\Web\HTML-CSS-JS\natasha-ai> git push
+              Counting objects: 100% (34/34), done.
+              Delta compression using up to 4 threads
+              Compressing objects: 100% (17/17), done.
+              Writing objects: 100% (17/17), 2.53 KiB | 431.00 KiB/s, done.
+              Total 17 (delta 11), reused 0 (delta 0), pack-reused 0
+              remote: Resolving deltas: 100% (11/11), completeP</p>  
+          </div>
+
+            <p class="question">User: What are the tools required for ai assistant</p>
+          <div>
+            <p>Nnothing to commit, working tree clean
+              PS C:\Users\Mohammed Faizan\Desktop\code\Web\HTML-CSS-JS\natasha-ai> git push
+              Counting objects: 100% (34/34), done.
+              Delta compression using up to 4 threads
+              Compressing objects: 100% (17/17), done.
+              Writing objects: 100% (17/17), 2.53 KiB | 431.00 KiB/s, done.
+              Total 17 (delta 11), reused 0 (delta 0), pack-reused 0
+              remote: Resolving deltas: 100% (11/11), completeP</p>  
+          </div>
+            <p class="question">User: What are the tools required for ai assistant</p>
+          <div>
+            <p>Nnothing to commit, working tree clean
+              PS C:\Users\Mohammed Faizan\Desktop\code\Web\HTML-CSS-JS\natasha-ai> git push
+              Counting objects: 100% (34/34), done.
+              Delta compression using up to 4 threads
+              Compressing objects: 100% (17/17), done.
+              Writing objects: 100% (17/17), 2.53 KiB | 431.00 KiB/s, done.
+              Total 17 (delta 11), reused 0 (delta 0), pack-reused 0
+              remote: Resolving deltas: 100% (11/11), completeP</p>  
+          </div>
+            <p class="question">User: What are the tools required for ai assistant</p>
+          <div>
+            <p>Nnothing to commit, working tree clean
+              PS C:\Users\Mohammed Faizan\Desktop\code\Web\HTML-CSS-JS\natasha-ai> git push
+              Counting objects: 100% (34/34), done.
+              Delta compression using up to 4 threads
+              Compressing objects: 100% (17/17), done.
+              Writing objects: 100% (17/17), 2.53 KiB | 431.00 KiB/s, done.
+              Total 17 (delta 11), reused 0 (delta 0), pack-reused 0
+              remote: Resolving deltas: 100% (11/11), completeP</p>  
+          </div> 
+            <p class="question">User: What are the tools required for ai assistant</p>
+          <div>
+            <p>Nnothing to commit, working tree clean
+              PS C:\Users\Mohammed Faizan\Desktop\code\Web\HTML-CSS-JS\natasha-ai> git push
+              Counting objects: 100% (34/34), done.
+              Delta compression using up to 4 threads
+              Compressing objects: 100% (17/17), done.
+              Writing objects: 100% (17/17), 2.53 KiB | 431.00 KiB/s, done.
+              Total 17 (delta 11), reused 0 (delta 0), pack-reused 0
+              remote: Resolving deltas: 100% (11/11), completeP</p>  
+          </div>
+            <p class="question">User: What are the tools required for ai assistant</p>
+          <div>
+            <p>Nnothing to commit, working tree clean
+              PS C:\Users\Mohammed Faizan\Desktop\code\Web\HTML-CSS-JS\natasha-ai> git push
+              Counting objects: 100% (34/34), done.
+              Delta compression using up to 4 threads
+              Compressing objects: 100% (17/17), done.
+              Writing objects: 100% (17/17), 2.53 KiB | 431.00 KiB/s, done.
+              Total 17 (delta 11), reused 0 (delta 0), pack-reused 0
+              remote: Resolving deltas: 100% (11/11), completeP</p>  
+          </div>
+ 
+          </div>
+        </div> -->
+
+      </div>
+
     </div>
-    <a href="static/about.html">
-      <button class="nav-button">About ></button>
-    </a>
-  </nav>
+  </main>
 
-<main>
-  <h1>A personal AI driven consiousness </h1>
-  <h2>Voice and text activated superpower.</h2>
-
-
-</main>
-<div class="gradiantContainer">
-  
-</div>
-
-
-
-
-
-
-
-
-
-  
   <footer>
     <div class="custom-screen">
       <p>
@@ -68,6 +193,11 @@
       </div>
 
     </div>
-  </footer>  
+  </footer>
+
+  <!-- <script src="static/js/speechRecognition.js"></script>
+  <script src="static/js/main.js"></script>
+  <script src="static/js/script.js"></script> -->
 </body>
+
 </html>

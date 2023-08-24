@@ -6,9 +6,33 @@
   /* background-image: linear-gradient(rgb(124, 58, 237) 0%, rgba(152, 103, 240, 0.984) 0.01%, rgba(237, 78, 80, 0.2) 100%); */
   width: 90%;
   height: 1000px;
+  display: flex;
+  justify-content: center;
 }
-/* 
-section{
-  width: 900px;
-  height: 1000px;
-} */
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Landing page text */
+.main-text{
+
+}
+
+.prompt-bar{
+  padding: 5px 10px;
+  background-color: rgba(162, 134, 213, 0.466);
+  border-radius: 10px;
+  border: 1px solid rgb(92,74,150);
+  color: white;
+  margin: 0;
+
+}
+
+.micBtn{
+  padding: 8px ;
+  margin: 0px;
+}
