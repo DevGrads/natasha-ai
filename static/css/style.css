@@ -89,6 +89,18 @@
 .search-btn::selection{
   border: 1px solid red;
 }
+.search-btn1{
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(145, 49, 231);
+  height: 42px;
+  padding: 0px 20px;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  margin-left: 553px;
+  margin-bottom: 30px;
+}
 
 
 
@@ -135,6 +147,8 @@ section{
   justify-content: center;
   width: 100%;
   min-height: 500px;
+  flex-direction: column;
+  align-items: center;
   /* border: 1px dotted red; */
 }
 .chat-container1{
@@ -143,14 +157,18 @@ section{
   border: 1px solid rgb(168, 85, 247);
   background-color: rgb(31, 41, 55);
   border-radius: 26px;
-  height: 300px;
-  padding: 16px;
+  min-height: 30px;
+  padding: 32px;
   font-size: 18px;
+  margin-top: 0px;
 }
 
 .ai-question{
-  color: rgb(145, 49, 231);
-
+  /* color: rgb(145, 49, 231); */
+  color: white;
+  font-size: 24px;
+  padding-top: 35px;
+  padding-left: 35px;
 }
 
 .ai-answer{
