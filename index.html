@@ -58,7 +58,7 @@
         <div class="input-container">
           <div>
             <label for="input-prompt">
-              <input class="prompt-input" placeholder="Search..." name="input-prompt" type="text" required>
+              <input class="prompt-input" id="input" placeholder="Search..." name="input-prompt" type="text" required>
             </label>
           </div>
 
@@ -70,8 +70,11 @@
           </div>
 
           <div>
-            <button class="search-btn" type="submit">Go></button>
+            <button class="search-btn" type="submit">Go</button>
           </div> 
+        </div>
+        <div>
+          <button class="search-btn1" type="submit" id="chart" >Chart with ai</button>
         </div>
 
         <!-- This section will be chat between user and ai -->
@@ -91,7 +94,7 @@
           
         </section>
         <div class="final-chat-container">
-          <div class="chat-container1">
+          <!-- <div class="chat-container1">
             <p class="ai-question">
               User: Here is my javascript code and you have to debug it.</p>
             <p class="ai-answer">
@@ -107,7 +110,7 @@ AI-Driven Emotional Intelligence: Design an AI with emotional awareness, adaptin
 
 Empowering Personal Development: Invent an emotionally connected AI that supports 
             </p>
-          </div>
+          </div> -->
         </div>
         <!-- <div class="user-ai-chat-container">
           <div class="user-one-chat">
@@ -202,6 +205,7 @@ Empowering Personal Development: Invent an emotionally connected AI that support
   <!-- <script src="static/js/speechRecognition.js"></script>
   <script src="static/js/main.js"></script>
   <script src="static/js/script.js"></script> -->
+  <script src="./static/js/openai.js"></script>
 </body>
 
 </html>
