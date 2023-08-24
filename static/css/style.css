@@ -14,12 +14,13 @@
   text-align: center;
   margin-top: 100px;
   margin-bottom: 20px;
+  word-wrap: normal;
 }
 
 .description{
   color: rgb(209, 213, 219);
   font-size: 20px; 
-  margin-bottom: 30px;
+  margin-bottom: 80px;
   color: rgb(209, 213, 219);
   /* font-family: ; */
   text-align: center;

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="">
+    <input type="text" name="" id="taskInput">
+    <input type="number" name="" id="priorityInput" style="width: 32px;" min="1" max="3">
+    <input type="button" value="Add Task" id="addTaskBtn">
+  </form>
+  <h2>ALL ToDo's</h2>
+  <ul></ul>
+
+  <script>
+    let input = document.getElementById('taskInput')
+    let priority = document.getElementById('priorityInput')
+    let listDisplay = document.querySelectorAll('ul')
+
+    const allTodos = [
+      {
+        taskName:'complete functions',
+        priority:2,
+        isCompleted: false
+      },
+      {
+        taskName:'Do laundry',
+        priority:1,
+        isCompleted: true
+      }
+    ];
+
+
+
+    document.querySelector('#addTaskBtn').addEventListener('click', ()=>{
+      if(!input.value && !Number(priority.value)){
+        console.log(priority.value)
+        alert('Enter task first');
+        return;
+      }
+      else{
+        console.log('value enterd', input.value)
+        const task = {};
+        task.taskName = input.value
+        task.priority = Number(priority.value)
+        task.isCompleted = false;
+        console.log(task)
+        allTodos.push(task)
+      }
+    })
+    
+    allTodos.forEach((eachTask, i)=>{
+      console.log(eachTask, i)
+      let newTaskLi = document.createElement('li')
+      newTaskLi.innerHTML = eachTask.taskName
+      listDisplay.appendChild(newTaskLi)
+    })
+
+    
+  </script>
+</body>
+</html>

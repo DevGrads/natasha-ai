@@ -11,11 +11,11 @@
 ||NLP|Tahir|
 |✔|Dashboard|Akshay|
 ||OpenAI|Likitha|
-||Guidelines|Kupendra|
+|✔|Guidelines|Kupendra|
 ||Meditation|Kupendra|
 |*Section* 2|||
 ||Make sure everything is working together|Faizan|
-||Other Command|Kupendra|
+|-|Other Command|Kupendra|
 ||TO-DO ++|Tahir|
 ||Local storage|Faizan|
 ||Forgetting curve UI|Likitha|
