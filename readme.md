@@ -9,7 +9,7 @@
 |---|---|---|
 |✔|Homepage UI|Faizan|
 ||NLP|Tahir|
-||Dashboard|Akshay|
+|✔|Dashboard|Akshay|
 ||OpenAI|Likitha|
 ||Guidelines|Kupendra|
 ||Meditation|Kupendra|

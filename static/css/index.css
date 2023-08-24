@@ -1,0 +1,14 @@
+.gradiantContainer{
+  border: 1px solid red;
+  background-image: linear-gradient(to left,rgb(92,74,150) ,rgb(162,134,213));
+  box-shadow: 0px -5px 85px rgba(162, 134, 213, 0.466);
+  /* box-shadow: 1px 1px 5px linear-gradient(rgb(124, 58, 237) 0%, rgba(152, 103, 240, 0.984) 0.01%, rgba(237, 78, 80, 0.2) 100%); */
+  /* background-image: linear-gradient(rgb(124, 58, 237) 0%, rgba(152, 103, 240, 0.984) 0.01%, rgba(237, 78, 80, 0.2) 100%); */
+  width: 90%;
+  height: 1000px;
+}
+/* 
+section{
+  width: 900px;
+  height: 1000px;
+} */
