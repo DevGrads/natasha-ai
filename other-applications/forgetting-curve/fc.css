@@ -1,0 +1,56 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:  rgb(17, 24, 39);
+  color: white;
+}
+h1{
+  color: rgb(147,51,234);
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.input_btn{
+  width: 160px;
+  height: 40px;
+}
+.remainder_btn{
+  width: 90px;
+  height: 40px;
+  margin-left: 20px;
+  background-color: rgb(37,42,52);
+  color: rgb(255,255,255);
+  border: none;
+  border-radius: 10px;
+}
+.history{
+  display: flex;
+  flex-direction: column;
+  row-gap: 280px;
+  margin-top: 30px;
+}
+.All_curves_data{
+  color: rgb(147,51,234);
+  font-size: 40px;
+  margin-top: 26px;
+}
+.Today_data{
+  color: rgb(147,51,234);
+  font-size: 40px;
+}
+.div{
+  display: flex;
+  flex-direction: row
+  
+  ;
+  /* align-items: flex-start; */
+  column-gap: 20px;
+}
+.div p{
+  font-size: 25px;
+}
+.checkbox{
+  width: 10%;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+}
