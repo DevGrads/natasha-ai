@@ -5,7 +5,7 @@ const Chartsubmit_Btn = document.querySelector("#chart")
 const chart_Area = document.querySelector(".final-chat-container")
 
 let userInput;
-const API_KEY = "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";
+const API_KEY = "";
 
 const createDiv = (message,ClassName)=>{
   const para = document.createElement("p")
