@@ -1,17 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700;800;900&family=Open+Sans:ital,wght@0,500;1,500&family=Poppins:ital,wght@0,100;0,400;1,200;1,400&display=swap');
 
 body {
-    background-color: #bfc3d0;
+    background-color: rgb(17, 24, 39);
     font-family: 'Montserrat', sans-serif;
 
-
 }
-
+.name{
+    font-size: 26px;
+    margin-top: 1px;
+    margin-left: -12px;
+    color: white;
+}
 
 h4{
-    margin-top: 0%;
-    font-size: x-small;
+    font-size: 18px;
+    color: black;
+    padding-top: 8px;
+    padding-bottom: 5px;
 }
+
+p{
+    font-size: 14px;
+    color: black;
+    margin: 0px;
+}
+
+.project-title{
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: -20px;
+    color: rgb(229, 231, 235);
+}
+
 .table {
     height: 100vh;
     width: 100%;
@@ -24,21 +44,22 @@ h4{
 
 nav {
 
-    height: 99vh;
-    background-color: #bfc3d0;
-    border: 3px solid black;
+    height: 95vh;
+    background-color: rgb(17, 24, 39);
+    border: 3px solid rgba(168, 85, 247,0.7);
     border-radius: 15px;
     font-size: x-large;
-    margin-top: 5px;
-    padding: 13px;
+    margin-top: 7px;
+    padding: 12px;
     transition: 0.4s linear;
     display: grid;
     grid-template-rows: 20% 20% 20% 20% 20%;
-
+    justify-content: center;
 }
 
 nav:hover {
-    background-color: #1c045c;
+    /* background-color:  rgba(144, 26, 255, 0.7); */
+    transition: all 0.8s ease;
     transform: scale(2px);
 }
 
@@ -54,7 +75,7 @@ nav:hover {
 }
 
 .container {
-    background-color: #bfc3d0;
+    background-color: rgb(17, 24, 39);
     display: grid;
     grid-template-columns: 75% 25%;
     column-gap: 25px;
@@ -62,12 +83,14 @@ nav:hover {
 
 /* main container for holding graphs and text */
 .container1 {
-    background-color: #bfc3d0;
+    background-color: rgb(17, 24, 39);
     display: grid;
     grid-template-rows: 17% 83%;
-   
     row-gap: 10px;
     column-gap: 10px;
+    border: 3px solid rgb(168, 85, 247);
+    border-radius: 18px;
+    padding: 30px;
     
 }
 
@@ -93,21 +116,34 @@ nav:hover {
     border-radius: 15px;
 }
 .streaks{
-    background-color: white;
+    background: radial-gradient(157.73% 157.73% at 50% -29.9%, rgba(203, 213, 225, 0.16) 0%, rgba(203, 213, 225, 0) 100%);
     border-radius: 20px;
     height: 95%;
     width: 70%;
-    margin-left: 30px;
+    margin-left: 50px;
+    position: relative;
   
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
+.streak-title{
+    position: absolute;
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+    bottom: -14px;
+    left: 16px;
+}
+
 .bar{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: radial-gradient(157.73% 157.73% at 50% -29.9%, rgba(203, 213, 225, 0.16) 0%, rgba(203, 213, 225, 0) 100%);
+    border-radius: 20px;
     
 }
 .value{margin-left: 20px;
@@ -120,22 +156,23 @@ nav:hover {
     grid-template-columns: 70% 30%;
 }
 .card{
-    background-color: white;
+    background: radial-gradient(157.73% 157.73% at 50% -29.9%, rgba(203, 213, 225, 0.16) 0%, rgba(203, 213, 225, 0) 100%);
+    
     border-radius: 20px;
+    margin-left: 50px;
+    padding: 20px;
 }
-.bar{
-    background-color: wheat;
-    border-radius: 20px;
-}
+
 
 
 .container2 {
-    background-color: #f2f6fe;
+    background-color: rgb(17, 24, 39);
     border-radius: 20px;
 
 
     display: grid;
-    grid-template-rows: 65% 35%;
+    grid-template-rows: 70% 30%;
+    row-gap: -3px;
 
 
 
@@ -143,38 +180,54 @@ nav:hover {
 }
 
 .subcontainer-profile {
-    background-color: #fff;
+    background-color: rgb(17, 24, 39);
     border-radius: 20px;
     display: grid;
     padding: 10px;
     grid-template-rows: 15% 55% 30%;
+    border: 3px solid rgba(168, 85, 247,0.7);
+    margin-bottom: 5px;
 }
 
 .profile {
-    color: black;
-    width: 80%;
-    background-color: #bbc8e4;
+    color: white;
+    width: 100%;
+    background-color: rgb(74, 59, 121);
     display: flex;
     flex-direction: row;
     border-radius: 20px;
     align-items: center;
+    
 }
+.quote{
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
 
 .progress {
-    background-color: #fff;
+    background-color: rgb(92,74,150);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    
-
-
-}
-
-.projects {
-    background-color: #fff;
+    border-radius: 20px 20px 0px 0px;
+    margin-top: 5px;
+    padding: 0px;
     
 }
+
+.progress-title{
+    color: rgb(229, 231, 235);
+    font-size: 24px;
+    margin-top: -5px;
+    margin-bottom: 15px;
+}
+
+
 .streakimg{
     width: 90%;
     height: 90%;
@@ -192,9 +245,7 @@ nav:hover {
     border-radius: 60%;
     padding: 2px;
     justify-content: space-between;
-
-
-
+    margin-left: 10px;
 
 
 }
@@ -256,9 +307,10 @@ h4 {
 .projects {
     display: grid;
     grid-template-rows: 20% 80%;
-    background-color: #fff;
+    background-color: rgb(92,74,150);
     text-align: center;
-
+    color: rgb(229, 231, 235);
+    
 }
 
 
@@ -271,17 +323,19 @@ h4 {
     grid-template-rows: 50% 50%;
     column-gap: 5px;
     row-gap: 5px;
+    margin-top: -5px;
 }
 
 .total {
     background-color: #bdc7dd;
-
+    font-size: 12px;
     border-radius: 9px;
 }
 
 .completed {
-    background-color: #ffefe1;
+    background-color: #f7cff9;
     border-radius: 9px;
+    font-size: 12px;
 }
 
 .inprogress {
@@ -290,13 +344,36 @@ h4 {
 }
 
 .waiting {
-    background-color: #c2cfec;
+    background-color: #bdc7dd;
     border-radius: 9px;
 }
 
 .subcontainer-todo {
     width: 100%;
     height: 100%;
+    background-color: rgb(17, 24, 39);
 
+}
 
+h1{
+    color: white;
+}
+
+.text{
+    color: rgb(229, 231, 235)
+}
+
+.quotes-container{
+    border: 3px solid rgba(168, 85, 247,0.7);
+    border-radius: 18px;
+    padding: 30px;
+    background: radial-gradient(157.73% 157.73% at 50% -29.9%, rgba(203, 213, 225, 0.16) 0%, rgba(203, 213, 225, 0) 100%);
+}
+.prog1{
+    color: rgb(229, 231, 235);
+}
+label{
+    color: rgb(229, 231, 235);
+    font-size: x-large;
+    margin-bottom: 8px;
 }
