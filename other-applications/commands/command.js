@@ -10,7 +10,7 @@ function speak(input){
 let inputBar = document.querySelector('input')
 let submitBtn = document.querySelector('button')
 
-
+ 
 submitBtn.addEventListener('click', function(){
   console.log(inputBar.value);
   if(inputBar.value.includes('sad')){
@@ -71,7 +71,7 @@ submitBtn.addEventListener('click', function(){
     }
   if(inputBar.value.includes('twitter profile') ){
     speak("opening your twitter profile sir!")
-  window.open("https://github.com/kupendrav");
+  window.open("https://twitter.com/kupendrav99");
 
     }
   if(inputBar.value.includes('instagram profile') ){
@@ -94,7 +94,7 @@ submitBtn.addEventListener('click', function(){
   window.open("https://www.google.com/android/find/");
 
     }
-  if(inputBar.value.includes('what spl today') || (inputBar.value.includes('what is today'))){
+  if(inputBar.value.includes('what special today') || (inputBar.value.includes('what is today'))){
     speak("today special is!")
   window.open(" https://nationaltoday.com/what-is-today/");
   

@@ -4,7 +4,7 @@ function speak(text){
   let utterance = new SpeechSynthesisUtterance();
 
   // Changing voice to girl
-  // utterance.voice = window.speechSynthesis.getVoices()[5]; //Eng Google UK Female.
+  utterance.voice = window.speechSynthesis.getVoices()[6]; //Eng Google UK Female.
 
   // speak what arg is passed to it.
   utterance.text = text
