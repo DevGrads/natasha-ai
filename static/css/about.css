@@ -12,6 +12,7 @@
 
 .answer{
   font-size: 17px;
+  margin-bottom: 4px;
 }
 
 .answer span{
@@ -34,10 +35,26 @@ h1{
 }
 
 .feature_container1{
+  padding: 32px;
   width: 310px;
-  height: 550px;
+  height: 450px;
   border: 1px solid rgb(168, 85, 247);
   border-radius: 12px;
+  margin-top: 60px;
+}
+
+
+.feature_containers h1{
+  border-bottom: 1px solid rgb(168, 85, 247);
+  padding-bottom: 50px;
+}
+
+.feature_container2{
+  border: 1px solid rgba(229, 231, 235, 0.365);
+}
+
+.feature_container2 h1{
+  border-bottom-color: rgba(229, 231, 235, 0.365);
 }
 
 .feature_containers li{
@@ -45,4 +62,11 @@ h1{
   color: rgb(209, 213, 219);
   list-style-type: '✔';
   padding-inline-start: 1ch;
+}
+
+
+/* ul */
+ul{
+  padding-left: 10px;
+  margin-bottom: 5px;
 }

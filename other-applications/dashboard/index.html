@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="static/script.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.3.3/chart.min.js" integrity="sha512-fMPPLjF/Xr7Ga0679WgtqoSyfUoQgdt8IIxJymStR5zV3Fyb6B3u/8DcaZ6R6sXexk5Z64bCgo2TYyn760EdcQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="table">
+        <div class="nav">
+            <nav>
+                <div class="home">
+                    <i class="fa-solid fa-house" style="color: #744ce0;"></i>
+                </div>
+                <div class="settings-btn">
+                    <i class="fa-solid fa-gear" style="color:  #744ce0;"></i>
+                </div>
+                <div class="profile-btn">
+                    <i class="fa-solid fa-user" style="color:   #744ce0;"></i>
+                </div>
+                <div class="journal">
+                    <i class="fa-solid fa-paperclip" style="color:   #744ce0;"></i>
+                </div>
+                <div class="time">
+                    <i class="fa-regular fa-clock" style="color:  #744ce0;"></i>
+                </div>
+            </nav>
+
+        </div>
+        <div class="contents">
+            <div class="container">
+                <div class="container1">
+                    <div class="greet">
+                        <div class="text">
+                            <h1> Hi User,</h1>
+                            Glad to see you back revisiting your dashboard
+                        </div>
+
+                    </div>
+                    <div class="stats">
+                        <div class="c1">
+                            <div class="value"> 
+                                <div class="bar"> 
+                                    <label for="prog1">hi</label>
+                                    <progress class="prog1" value="20" max="100" min="0" style="height: 30px; width: 80%;">40</progress>
+                                    
+                                    <label for="prog1">li</label>
+                                    <progress class="prog1" value="50" max="100" min="0" style="height: 30px; width: 80%"></progress>
+                                    
+                                    <label for="prog1">hi</label>
+                                    <progress class="prog1" value="20" max="100" min="0" style="height: 30px; width: 80%"></progress>
+                                </div>
+                                <div class="card"></div>
+                            </div>
+                            <div class="streaks">
+                                <img src="static/pigeon.jpg" class="streakimg">
+                              
+                            </div>
+                            
+                        </div>
+                        <div class="c2">
+                            <canvas id="myChart"></canvas>
+
+                        </div>
+
+                    </div>
+                   
+                </div>
+                <div class="container2">
+
+                    <div class="subcontainer-profile">
+                        <div class="profile">
+                            <img src="static/profilePic.jpg" class="profile-img">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h4>akshy</p>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-circle">
+                                <span class="progress-value">90%</span>
+
+                            </div>
+                        </div>
+                        <div class="projects">
+                            <h4>PROJECTS</h4>
+                            <div class="projects-container">
+                                <div class="total"><H4>TOTAL</H4><p>2</p></div>
+                                <div class="completed"><H4>COMPLETED</H4><p>2</p></div>
+                                <div class="inprogress"><H4>IN-PROGRESS</H4><p>1</p></div>
+                                <div class="waiting"><H4>WAITING</H4><p>0</p></div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="subcontainer-todo">
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
