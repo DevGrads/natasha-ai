@@ -53,7 +53,7 @@ function startPomo() {
     else {
         console.log('Started pomodoro')
         startBtn.innerHTML = '<i class="fa-solid fa-2xl fa-pause"></i>';
-        interval1 = setInterval(min, 1)
+        interval1 = setInterval(min, 100)
     }
 
 }

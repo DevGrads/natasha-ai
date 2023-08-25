@@ -15,7 +15,7 @@
     console.log(userText)
   
   
-    if (userText.includes('open my instagram')) {
+    if (userText.includes('instagram')) {
       speak('opening your instagram account')
       window.open('https://instagram.com/mohdfaizan_5')
     }
@@ -33,8 +33,13 @@
 
   
     // OTher interactive questions
-    if (userText.includes('what are your abilities')) {
-  
+    if (userText.includes('open dashboard')) {
+      console.log(userText.value)
+      speak('opening dashborad sir..')
+      // window.location = './other-applications/pomodoro/'
+      window.open('./other-applications/dashboard/index.html')
+      return;
+      
     }
   
     if (userText.includes('suggest me some meals for') || userText.includes('meals for')) {
@@ -73,11 +78,11 @@
       return;
     }
     if(userText.includes('hello')){
-      speak("hello sir.how its going?")
+      speak("hello sir!how is it going?")
       return;
     }
     if(userText.includes('motivational')){
-      speak("Just one small positive thought in the morning can change your whole day")
+      speak("you only fail, when you stop trying!")
       return;
       }
       if(userText.includes('drive')){
@@ -124,6 +129,20 @@
       speak('opening pomodoro sir..')
       // window.location = './other-applications/pomodoro/'
       window.open('./other-applications/pomodoro/')
+      return;
+    }
+    if (userText.includes('open to do')) {
+      console.log(userText.value)
+      speak('opening to do list sir..')
+      // window.location = './other-applications/pomodoro/'
+      window.open('./other-applications/todo/index.html')
+      return;
+    }
+    if (userText.includes('meditation')) {
+      console.log(userText.value)
+      speak('opening meditation app sir..')
+      // window.location = './other-applications/pomodoro/'
+      window.open('./other-applications/meditation/index.html')
       return;
     }
   

@@ -3,6 +3,7 @@
 body {
     background-color: rgb(17, 24, 39);
     font-family: 'Montserrat', sans-serif;
+    color: white;
 
 }
 .name{
@@ -298,6 +299,7 @@ padding: 20px;
     position: relative;
     font-size: large;
     font-weight:bolder;
+    color: black;
 }
 
 h4 {

@@ -26,7 +26,7 @@ function speak(text){
   recognition.continuous = true;
 
   // setting lang en-Global
-  recognition.lang = 'en-GB';
+  recognition.lang = 'en-IN';
 
   // This event does when object starts 
   recognition.onstart = () => {
