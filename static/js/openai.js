@@ -5,7 +5,7 @@ const Chartsubmit_Btn = document.querySelector("#chart")
 const chart_Area = document.querySelector(".final-chat-container")
 
 let userInput;
-const API_KEY = "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";
+// const API_KEY = "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";
 const createDiv = (message, ClassName) => {
   const para = document.createElement("p")
   para.classList.add("ai-question", ClassName)
@@ -15,7 +15,7 @@ const createDiv = (message, ClassName) => {
 }
 
 const generateResponse = async (incomingchar) => {
-  const API_URL = "https://api.openai.com/v1/completions";
+  // const API_URL = "https://api.openai.com/v1/completions";
   const messageElement = incomingchar;
 
 
